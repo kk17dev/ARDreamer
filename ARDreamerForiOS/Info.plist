@@ -65,8 +65,8 @@
     <key>Unity_LoadingActivityIndicatorStyle</key>
     <integer>-1</integer>
     <key>UnityCloudProjectID</key>
-    <string></string>
+    <string />
     <key>UnityCrashSubmissionURL</key>
-    <string></string>
+    <string />
   </dict>
 </plist>

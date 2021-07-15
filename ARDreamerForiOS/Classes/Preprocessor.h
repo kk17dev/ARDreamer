@@ -41,11 +41,11 @@
 #define UNITY_TRAMPOLINE_IN_USE 1
 
 #if defined(TARGET_OS_TV) && TARGET_OS_TV
-#define PLATFORM_TVOS 0
-#define PLATFORM_IOS 1
+    #define PLATFORM_TVOS   1
+    #define PLATFORM_IOS    0
 #else
-#define PLATFORM_TVOS 0
-#define PLATFORM_IOS 1
+    #define PLATFORM_TVOS   0
+    #define PLATFORM_IOS    1
 #endif
 
 #define PLATFORM_OSX 0
@@ -128,11 +128,11 @@
 // adjust the value of these flags whenever the project is built (including when the
 // project is appended)
 
-#define UNITY_USES_REMOTE_NOTIFICATIONS 0
+#define UNITY_USES_REMOTE_NOTIFICATIONS 1
 #define UNITY_USES_WEBCAM 0
 #define UNITY_USES_MICROPHONE 0
 #define UNITY_USES_REPLAY_KIT 0
-#define UNITY_USES_IAD 0
+#define UNITY_USES_IAD 1
 #define UNITY_SNAPSHOT_VIEW_ON_APPLICATION_PAUSE 0
 #define UNITY_DEVELOPER_BUILD 0
 #define UNITY_USES_DYNAMIC_PLAYER_LIB 0
